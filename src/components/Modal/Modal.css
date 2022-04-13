@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(9, 9, 9, 0.694);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-container > p {
+    padding: 10px 4px;
+    font-size: 10px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 92%;
+    color: hsl(0, 0%, 100%)
+}
+.content-container > p:hover {
+    color:hsl(26, 100%, 55%);
+    cursor: pointer;
+}
+.main-pic-frame > img {
+    border-radius: 10px;
+} 
+
+.img-grid-container {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+}
+.img-grid > img {
+    border-radius: 5px;
+    margin: 5px
+}

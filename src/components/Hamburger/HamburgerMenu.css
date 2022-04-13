@@ -1,0 +1,44 @@
+.hamburger-container {
+    background-color: rgba(0, 0, 0, 0.591);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.list-container {
+    background-color: white;
+    position: fixed;
+    width: 70%;
+    height: 100%;
+}
+.m-menu-text-container  {
+    position: relative;
+    margin: 20px;
+}
+.m-menu-text-container > p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.m-menu-text-container > p:hover {
+    color: hsl(26, 100%, 55%);
+    cursor: pointer;
+}
+.menu-list {
+    text-decoration: none;
+}
+.menu-list {
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+.menu-list > li {
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+}
+.menu-list > li:hover {
+    color: hsl(26, 100%, 55%);
+    cursor: pointer
+}

@@ -1,0 +1,117 @@
+
+
+.navbar {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 90px;
+    border-bottom: 2px solid hsl(233, 29%, 94%);
+}
+.menu {
+    display: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    margin-top: 10px;
+    border-bottom: 100px;
+    font-size: 16px;
+}
+
+.cart{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    
+}
+.smt{
+    position: absolute;
+    right: 11%;
+}
+
+
+.cart-item-no {
+    position: relative;
+    top: -16px;
+    right: 12px;
+    border-radius: 40%;
+    padding: 0px 9px;
+    font-size: 12px;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    
+}
+a {
+    text-decoration: none;
+    color: hsl(220, 14%, 75%);
+    
+}
+.logo{
+    font-size: 35px;
+    margin-right: 30px;
+    color:black;
+    margin-top: -14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.links > a:hover{
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+    color: rgb(8, 4, 4);
+}
+.links > a:first-child:hover{
+    border-bottom:  none !important;
+}
+
+
+.avatar {
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+    margin-top: 0px;
+}
+ 
+  svg{
+    padding: 7px;
+} 
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    body {
+        margin: 2% 0%;
+    }
+     .link-1 ,.link-2, .link-3, .link-4, .link-4, .link-5 {
+      display: none;
+      border: 1px solid white;
+    }
+    .menu{
+        display: block;
+        margin-top: -10px;
+    }
+    .navbar{
+        margin-top: 2%;
+        width: 98%;
+        height: auto;
+    }
+    .logo {
+        margin-left: -15px;
+        font-size: 25px;
+    }
+    .avatar{
+        width: 23px;
+        height: 23px;
+    }
+    .menu {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .cart {
+        margin-right: 3%;
+    }
+    .cart > div > svg {
+        margin-top: -5px;
+    }
+    
+ }
